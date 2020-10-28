@@ -11,3 +11,5 @@ git clone # copies a repo in a new dir
 git config --global user.name 'name' # add name to git
 $ git commit -m 'Changed app.js' #commit the modified file
 touch .gitignore #used to create files you wouldn't want to add to the git local repository
+$ git branch staging #create a branch
+$ git checkout staging #switch over to branch staging
